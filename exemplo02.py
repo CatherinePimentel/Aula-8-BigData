@@ -1,0 +1,10 @@
+def somar(a,b):
+    r = a + b 
+    print(f'Resposta {r}')
+
+
+
+for i in range(3):
+    n1 = int(input('Número1:'))
+    n2 = int(input('Número2:'))
+    somar(n1,n2)
